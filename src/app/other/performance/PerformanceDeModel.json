@@ -1,0 +1,28 @@
+{
+  "name": "PerformanceDeModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "İsim Soyisim",
+      "type": "string",
+      "name": "name",
+      "tooltip": "İsim Soyisim",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Geniş",
+      "type": "string",
+      "name": "genis",
+      "tooltip": "Geniş",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

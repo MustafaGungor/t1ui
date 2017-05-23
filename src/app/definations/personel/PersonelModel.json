@@ -1,0 +1,52 @@
+{
+  "name": "PersonelModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Kodu",
+      "type": "string",
+      "name": "kodu",
+      "tooltip": "Kodu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "adi",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Soyadı",
+      "type": "string",
+      "name": "soyadi",
+      "tooltip": "Soyadı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Sicil No",
+      "type": "string",
+      "name": "sicilNo",
+      "tooltip": "Id",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Görevi",
+      "type": "string",
+      "name": "gorevi",
+      "tooltip": "Id",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

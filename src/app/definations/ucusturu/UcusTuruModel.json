@@ -1,0 +1,29 @@
+{
+  "name": "UcusTuruModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    
+    {
+      "label": "Kodu",
+      "type": "string",
+      "name": "kodu",
+      "tooltip": "Kodu",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "adi",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "name": "UserModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Ad   ",
+      "type": "string",
+      "name": "name",
+      "tooltip": "Adı",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            3
+          ],
+          "message": "Bu alan 3 karakterden az olamaz"
+        },
+        "maxLength": {
+          "args": [
+            50
+          ],
+          "message": "Bu alan 50 karakterden fazla olamaz"
+        },
+        "regex": {
+          "message": "Sadece harflerden oluşmalıdır",
+          "args": [
+            "^[a-zA-Z\\s\\ç\\Ç\\ö\\Ö\\ş\\Ş\\ı\\İ\\ğ\\Ğ\\ü\\Ü]+$"
+          ]
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Soyad",
+      "type": "string",
+      "name": "surname",
+      "tooltip": "Soyadı",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            2
+          ],
+          "message": "Bu alan 2 karakterden az olamaz"
+        },
+        "maxLength": {
+          "args": [
+            50
+          ],
+          "message": "Bu alan 50 karakterden fazla olamaz"
+        },
+        "regex": {
+          "message": "Sadece harflerden oluşmalıdır",
+          "args": [
+            "^[a-zA-Z\\s\\ç\\Ç\\ö\\Ö\\ş\\Ş\\ı\\İ\\ğ\\Ğ\\ü\\Ü]+$"
+          ]
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Kullanıcı Adı",
+      "type": "string",
+      "name": "userName",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "E-Posta",
+      "type": "string",
+      "name": "email",
+      "tooltip": "Email",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            5
+          ],
+          "message": "Bu alan 5 karakterden az olamaz"
+        },
+        "maxLength": {
+          "args": [
+            50
+          ],
+          "message": "Bu alan 50 karakterden fazla olamaz"
+        },
+        "regex": {
+          "message": "Bu alan e-posta formatında olmalıdır",
+          "args": [
+            "\\S+@\\S+\\.\\S+"
+          ]
+        }
+      },
+      "filter": true,
+      "sort": "asc"
+    },
+    {
+      "label": "Şifre",
+      "type": "password",
+      "name": "password",
+      "tooltip": "Şifre",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            6
+          ],
+          "message": "Bu alan 3 karakterden az olamaz"
+        }
+      }
+    },
+    {
+      "label": "Rol",
+      "type": "select",
+      "name": "roleOid",
+      "tooltip": "Rol",
+      "placeHolder": "<Lütfen Seçiniz>",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            32
+          ],
+          "message": "Bu alan 32 karakterden az olamaz"
+        },
+        "maxLength": {
+          "args": [
+            32
+          ],
+          "message": "Bu alan 32 karakterden fazla olamaz"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Aktif",
+      "type": "check",
+      "valueField": "value",
+      "textField": "text",
+      "item": [
+        {
+          "value": true,
+          "text": "Bu kullanıcı aktif"
+        }
+      ],
+      "name": "active",
+      "tooltip": "Aktif",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Fail Count",
+      "type": "number",
+      "name": "failCount",
+      "tooltip": "Fail Count",
+      "visible": false
+    }
+  ]
+}

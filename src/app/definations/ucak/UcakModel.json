@@ -1,0 +1,37 @@
+{
+  "name": "PersonelModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Kodu",
+      "type": "string",
+      "name": "kodu",
+      "tooltip": "Kodu",     
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Adı",
+      "type": "string",
+      "name": "adi",
+      "tooltip": "Adı",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Ucak Tipi",
+      "type": "select",
+      "name": "ucakTipi",
+      "tooltip": "ucakTipi",
+      "sort":"",
+      "filter": true,
+      "items" : []
+    }
+  ]
+}

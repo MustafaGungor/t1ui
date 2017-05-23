@@ -1,0 +1,100 @@
+{
+  "name": "DataGridModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Tarih",
+      "type": "string",
+      "name": "tarih",
+      "tooltip": "İsim Soyisim",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Yön",
+      "type": "string",
+      "name": "yon",
+      "tooltip": "Şifre",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Uçuş No",
+      "type": "string",
+      "name": "ucusno",
+      "tooltip": "Görevi",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Des.",
+      "type": "string",
+      "name": "des",
+      "tooltip": "Cinsiyet",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Pos.",
+      "type": "string",
+      "name": "pos",
+      "tooltip": "position",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "STD",
+      "type": "string",
+      "name": "std",
+      "tooltip": "STD",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "ATD",
+      "type": "string",
+      "name": "atd",
+      "tooltip": "ATD",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Fark",
+      "type": "string",
+      "name": "fark",
+      "tooltip": "Fark",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Tehir",
+      "type": "string",
+      "name": "tehir",
+      "tooltip": "Tehir",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Süre",
+      "type": "string",
+      "name": "sure",
+      "tooltip": "Süre",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Tip",
+      "type": "string",
+      "name": "tip",
+      "tooltip": "Tip",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

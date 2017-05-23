@@ -1,0 +1,28 @@
+{
+  "name": "GroupModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Grup Kodu",
+      "type": "string",
+      "name": "groupCode",
+      "tooltip": "Id",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Grup Adı",
+      "type": "string",
+      "name": "groupName",
+      "tooltip": "Id",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

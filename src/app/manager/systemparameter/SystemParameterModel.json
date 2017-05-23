@@ -1,0 +1,55 @@
+{
+  "name": "SystemParameterModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "oid",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "Last Updated",
+      "type": "string",
+      "name": "lastUpdated",
+      "tooltip": "Last Updated",
+      "visible": false
+    },
+    {
+      "label": "Anahtar Kelime",
+      "name": "key",
+      "type": "string",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            3
+          ],
+          "message": "Bu alan 3 karakterden az olamaz"
+        }
+      },
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Değer",
+      "name": "value",
+      "type": "string",
+      "validations": {
+        "required": {
+          "message": "Bu alan zorunludur"
+        },
+        "minLength": {
+          "args": [
+            1
+          ],
+          "message": "Bu alan 1 karakterden az olamaz"
+        }
+      },
+      "sort": "",
+      "filter": true
+    }
+  ]
+}

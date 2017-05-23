@@ -1,0 +1,69 @@
+{
+  "name": "PerformanceModel",
+  "fields": [
+    {
+      "label": "Id",
+      "type": "string",
+      "name": "id",
+      "tooltip": "Id",
+      "visible": false
+    },
+    {
+      "label": "İsim Soyisim",
+      "type": "string",
+      "name": "name",
+      "tooltip": "İsim Soyisim",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Sicil No",
+      "type": "string",
+      "name": "sicilno",
+      "tooltip": "Sicil No",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Ekip",
+      "type": "string",
+      "name": "ekip",
+      "tooltip": "Ekip",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Atanan",
+      "type": "string",
+      "name": "atanan",
+      "tooltip": "Atanan",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "Geniş",
+      "type": "string",
+      "name": "genis",
+      "tooltip": "Geniş",
+      "sort": "",
+      "filter": true
+    },
+    {
+      "label": "i",
+      "type": "string",
+      "name": "buttonSearch",
+      "tooltip": "Arama",
+      "sort": "",
+      "filter": true
+    }
+    ,
+    {
+      "label": "#",
+      "type": "string",
+      "name": "buttonDivert",
+      "tooltip": "Yönlendir",
+      "sort": "",
+      "filter": true
+    }
+  ]
+}
